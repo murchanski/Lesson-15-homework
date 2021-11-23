@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    padding: 20px;
+}
+
+.text_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-danger{
+    background-color: rgb(182, 129, 231);
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+}
+
+.linktop{
+    text-align: right;
+    padding: 10px 10px 0 0;
+}
+
+.btn-primary{
+    background-color: rgb(214, 160, 250);
+    border: none;
+}
